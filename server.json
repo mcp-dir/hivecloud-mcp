@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/hivecloud-mcp",
+  "title": "HiveCloud CT-e / MDF-e",
+  "description": "Transportation fiscal-document issuer from Bsoft by nstech (HiveCloud). Query CT-e (freight bill of ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/hivecloud-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_hivecloud"
+    }
+  ]
+}
